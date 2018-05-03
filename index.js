@@ -14,7 +14,7 @@ function getDataFromApi(searchTerm, callback) {
   $.ajax(settings); 
 }
 
-function renderResults() {
+function renderResults(result) {
   return `
     name: ${data.data.results.name}
   `
@@ -23,7 +23,7 @@ function renderResults() {
 function displayMarvelData(data) { 
 /*  console.log(Object(data)); */
   console.log(JSON.stringify(data)); 
-  $('.js-search-results').html(renderResults); 
+  $('.js-search-results').html(renderResults(data)); 
 }
 
 function watchSubmit() {
