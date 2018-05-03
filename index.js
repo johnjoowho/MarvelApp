@@ -14,14 +14,14 @@ function getDataFromApi(searchTerm, callback) {
   $.ajax(settings); 
 }
 
-function renderResults(result) { 
+/* function renderResults(result) { 
   return `
     <h1>${result.name}</h1> 
   `
-}
+} */
 
 function displayMarvelData(data) { 
-  $('.js-search-results').html(renderResult); 
+  $('.js-search-results').html(`${data.Character.name}`); 
 }
 
 function watchSubmit() {
