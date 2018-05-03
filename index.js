@@ -16,14 +16,14 @@ function getDataFromApi(searchTerm, callback) {
 
 function renderResults() {
   return `
-    name: ${data.data.results}
+    name: ${data.results.name}
   `
 } 
 
 function displayMarvelData(data) { 
 /*  console.log(Object(data)); */
-console.log(JSON.stringify(data)); 
-  
+  console.log(JSON.stringify(data)); 
+  $('.js-search-results').html(renderResults); 
 }
 
 function watchSubmit() {
