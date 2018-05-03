@@ -16,7 +16,7 @@ function getDataFromApi(searchTerm, callback) {
 
 function renderResults(result) {
   return `
-    name: ${result.results.name}
+    name: ${result.data.results.name}
   `
 } 
 
