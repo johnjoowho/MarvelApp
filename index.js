@@ -19,7 +19,7 @@ function renderResults() {
 
 function displayMarvelData(data) { 
 /*  console.log(Object(data)); */
-  console.log(JSON.stringify(data.data.results.name)); 
+  console.log(JSON(data.data.results.name)); 
 }
 
 function watchSubmit() {
