@@ -14,12 +14,16 @@ function getDataFromApi(searchTerm, callback) {
   $.ajax(settings); 
 }
 
-function renderResults() { 
+function renderResults() {
+  return `
+    name: ${data.data.results}
+  `
 } 
 
 function displayMarvelData(data) { 
 /*  console.log(Object(data)); */
-  console.log(JSON.stringify(data.data)); 
+console.log(JSON.stringify(data)); 
+  
 }
 
 function watchSubmit() {
