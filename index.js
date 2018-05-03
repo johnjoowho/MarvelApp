@@ -5,7 +5,7 @@ function getDataFromApi(searchTerm, callback) {
     url: MARVEL_SEARCH_URL, 
     data: { 
       apikey: '90b607b8985a5ffb047be3c16cb800fb',
-      q: `${searchTerm}`
+      q: `${searchTerm} in:name`
     },
     dataType: 'json', 
     type: 'GET', 
