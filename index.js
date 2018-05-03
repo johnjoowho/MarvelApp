@@ -4,7 +4,8 @@ function getDataFromApi(searchTerm, callback) {
   const settings = { 
     url: MARVEL_SEARCH_URL, 
     data: { 
-      apikey: '90b607b8985a5ffb047be3c16cb800fb'
+      apikey: '90b607b8985a5ffb047be3c16cb800fb',
+      name: `${searchTerm}`
     },
     dataType: 'json', 
     type: 'GET', 
