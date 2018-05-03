@@ -18,7 +18,7 @@ function renderResults() {
 } 
 
 function displayMarvelData(data) { 
-  console.log(data.allKeys()); 
+  console.log(Object.keys(data)); 
 }
 
 function watchSubmit() {
