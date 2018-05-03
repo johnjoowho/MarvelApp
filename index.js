@@ -18,7 +18,7 @@ function renderResults() {
 } 
 
 function displayMarvelData(data) { 
-  console.log(Object(data.copyright)); 
+/*  console.log(Object(data)); */
   console.log(JSON.stringify(data)); 
 }
 
