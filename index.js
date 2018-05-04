@@ -15,16 +15,16 @@ function getDataFromApi(searchTerm, callback) {
   $.ajax(settings); 
 }
 
-function renderResults(result) {
+function renderResults(results) {
   return `
-    name: ${result}
+    ${results}
   `
 } 
 
 function displayMarvelData(data) { 
 /*  console.log(Object(data)); */
   console.log(JSON.stringify(data.data)); 
-  $('.js-search-results').html(renderResults(data)); 
+  $('.js-search-results').html(renderResults(data.data.results)); 
 }
 
 function watchSubmit() {
@@ -32,7 +32,7 @@ function watchSubmit() {
     event.preventDefault();
     const queryTarget = $('.js-query');
     const query = queryTarget.val();
-    console.log(query); 
+    console.log(query);
     // clear out the input
     queryTarget.val("");
     getDataFromApi(query, displayMarvelData);
