@@ -9,7 +9,7 @@ function getDataFromApi(searchTerm, callback) {
     },
     dataType: 'json', 
     type: 'GET', 
-    success: callbackg
+    success: callback
   }; 
 
   $.ajax(settings); 
