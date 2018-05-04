@@ -9,7 +9,7 @@ function getDataFromApi(searchTerm, callback) {
     },
     dataType: 'json', 
     type: 'GET', 
-    success: callback
+    success: callbackg
   }; 
 
   $.ajax(settings); 
@@ -17,13 +17,13 @@ function getDataFromApi(searchTerm, callback) {
 
 function renderResults(result) {
   return `
-    name: ${data.data.results}
+    name: ${result}
   `
 } 
 
 function displayMarvelData(data) { 
 /*  console.log(Object(data)); */
-  console.log(JSON.stringify(data)); 
+  console.log(JSON.stringify(data.data.results)); 
   $('.js-search-results').html(renderResults(data)); 
 }
 
