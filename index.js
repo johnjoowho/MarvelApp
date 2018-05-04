@@ -16,7 +16,7 @@ function getDataFromApi(searchTerm, callback) {
 }
 
 function renderResults(results) {
-  return JSON.stringify(results[0]); 
+  return results[0].name; 
 } 
 
 function displayMarvelData(data) { 
