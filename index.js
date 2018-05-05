@@ -11,7 +11,7 @@ function getDataFromApi(searchTerm, callback) {
     type: 'GET', 
     success: callback,
     error: function (request, status, error) {
-      alert('try entering the name again!'); 
+      alert('please enter a name!'); 
     }
   }; 
 
