@@ -18,7 +18,7 @@ function getDataFromApi(searchTerm, callback) {
 function renderResults(results) {
   return `
   <h1>Character name: ${results[0].name}</h1> 
-  <img src="${results[0].thumbnail.path}${results[0].thumbnail.extension}">
+  <img src="${results[0].thumbnail.path}.portrait_uncanny.${results[0].thumbnail.extension}">
   `
 } 
 
