@@ -21,7 +21,7 @@ function renderResults(data) {
   
   <img src="${data.data.results[0].thumbnail.path}/portrait_xlarge.${data.data.results[0].thumbnail.extension}">
   <p>Description: ${data.data.results[0].description}</p>
-  <a href="${data.data.results[0].urls[0].url}">Link</a> 
+  <a href="${data.data.results[0].urls[0].url}">Link to comics ${data.data.results[0].name} is featured in</a> 
   `
 
   
