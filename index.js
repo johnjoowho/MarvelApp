@@ -21,8 +21,6 @@ function renderResults(data) {
   
   <img src="${data.data.results[0].thumbnail.path}/portrait_xlarge.${data.data.results[0].thumbnail.extension}">
   <p>Description: ${data.data.results[0].description}</p> 
-  <p>${data.attributionText}</p> 
-  <p>${data.attributionHTML}</P> 
   `
 
   
