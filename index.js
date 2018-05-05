@@ -1,4 +1,4 @@
-const MARVEL_SEARCH_URL = 'http://gateway.marvel.com/v1/public/characters';
+const MARVEL_SEARCH_URL = 'https://gateway.marvel.com/v1/public/characters';
 
 function getDataFromApi(searchTerm, callback) { 
   const settings = { 
