@@ -9,7 +9,10 @@ function getDataFromApi(searchTerm, callback) {
     },
     dataType: 'json', 
     type: 'GET', 
-    success: callback
+    success: callback,
+    error: function (request, status, error) {
+      alert(request.responseText); 
+    }
   }; 
 
   $.ajax(settings); 
@@ -21,7 +24,7 @@ function renderResults(data) {
   
   <img src="${data.data.results[0].thumbnail.path}/portrait_xlarge.${data.data.results[0].thumbnail.extension}">
   <p class="character-description">Description: ${data.data.results[0].description}</p>
-  <a href="${data.data.results[0].urls[0].url}">Link to comics ${data.data.results[0].name} apeears in</a> 
+  <a href="${data.data.results[0].urls[0].url}">Link to comics ${data.data.results[0].name} appears in</a> 
   `
 
   
