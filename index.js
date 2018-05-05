@@ -24,7 +24,7 @@ function renderResults(data) {
   <a href="${data.data.results[0].urls[0].url}">Link to comics ${data.data.results[0].name} is featured in</a> 
   <p class="character-events">Number of comics available: ${data.data.results[0].comics.available}</p> 
   <p class="character-events">Number of comics returned: ${data.data.results[0].comics.returned}</p>
-  <p class="character-collection-uri">Collection URI: ${data.data.results[0].comics.collectionURI}</p>
+  <a href="${data.data.results[0].comics.collectionURI}">Link to Collection URI</a>
   `
 
   
