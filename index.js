@@ -18,9 +18,14 @@ function getDataFromApi(searchTerm, callback) {
 function renderResults(data) {
   return `
   <h1>Character name: ${data.data.results[0].name}</h1> 
-  <p>description: ${data.data.results[0].description}</p> 
+  
   <img src="${data.data.results[0].thumbnail.path}/portrait_xlarge.${data.data.results[0].thumbnail.extension}">
+  <p>Description: ${data.data.results[0].description}</p> 
+  <p>${data.attributionText}</p> 
+  <p>${data.attributionHTML}</P> 
   `
+
+  
 } 
 
 function displayMarvelData(data) { 
