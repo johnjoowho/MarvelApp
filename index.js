@@ -15,7 +15,7 @@ function getDataFromApi(searchTerm, callback) {
   $.ajax(settings); 
 }
 
-function renderResults(results) {
+function renderResults(data) {
   return `
   <h1>Character name: ${data.results[0].name}</h1> 
   <p>description: ${data.results[0].description}</p> 
