@@ -17,15 +17,16 @@ function getDataFromApi(searchTerm, callback) {
 
 function renderResults(results) {
   return `
-  <h1>Character name: ${results[0].name}</h1> 
-  <img src="${results[0].thumbnail.path}/portrait_xlarge.${results[0].thumbnail.extension}">
+  <h1>Character name: ${data.results[0].name}</h1> 
+  <p>description: ${data.results[0].description}</p> 
+  <img src="${data.results[0].thumbnail.path}/portrait_xlarge.${data.results[0].thumbnail.extension}">
   `
 } 
 
 function displayMarvelData(data) { 
 /*  console.log(Object(data)); */
   console.log(JSON.stringify(data.data)); 
-  $('.js-search-results').html(renderResults(data.data.results)); 
+  $('.js-search-results').html(renderResults(data)); 
 }
 
 function watchSubmit() {
