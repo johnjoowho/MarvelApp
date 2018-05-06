@@ -134,26 +134,26 @@ button {
 } 
 
 ::-webkit-input-placeholder {
-  color: rgb(65, 48, 48); 
+  color: rgb(112, 25, 25); 
   font-style: italic;
-  font-size: 23px; 
+  font-size: 20px; 
   margin-left: 15px; 
 }
 :-moz-placeholder {
-  color: rgb(65, 48, 48); 
+  color: rgb(112, 25, 25);
   font-style: italic;  
-  font-size: 23px;
+  font-size: 20px;
   margin-left: 15px;
 }
 ::-moz-placeholder {
-  color: rgb(65, 48, 48); 
+  color: rgb(112, 25, 25); 
   font-style: italic;  
-  font-size: 23px;
+  font-size: 20px;
   margin-left: 15px;
 }
 :-ms-input-placeholder {  
-  color: rgb(65, 48, 48); 
+  color: rgb(112, 25, 25); 
   font-style: italic; 
-  font-size: 23px;
+  font-size: 20px;
   margin-left: 15px;
 }
