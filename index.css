@@ -72,6 +72,7 @@ main {
   height: 50px; 
   width: 35%; 
   padding-left: 15px; 
+  border-radius: 5px; 
 }
 
 
