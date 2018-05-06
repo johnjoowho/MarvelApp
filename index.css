@@ -39,12 +39,12 @@ input[type="text"] {
 }
 
 .sidenav {
-  width: 200px;
+  width: 150px;
   position: absolute;
   /* z-index: 1; */
-  height: 30%px; 
-  top: 200px;
-  left: 25px;
+  height: 300px; 
+  top: 160px;
+  left: 10px;
   background: #eee;
   overflow-x: hidden;
   padding: 8px 0;
