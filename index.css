@@ -14,7 +14,7 @@ body {
 
 main { 
   height: 100%; 
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
 }
 
 .home-button { 
@@ -62,8 +62,14 @@ main {
 
 .search-prompt { 
   font-size: 50px; 
+  margin: 20px; 
 }
 
 .results-prompt { 
   font-size: 40px; 
+  margin: 20px; 
+}
+
+.js-query { 
+  height: 30px; 
 }
