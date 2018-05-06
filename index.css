@@ -44,7 +44,7 @@ button {
 
 .sidenav {
   width: 200px;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   height: 500px; 
   top: 200px;
