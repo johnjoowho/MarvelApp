@@ -55,7 +55,8 @@ button {
   float: left; 
 }
 
-.js-search-results { 
+.js-search-results {
+  margin-left: 225px; 
   width: 66.6%; 
 }
 
