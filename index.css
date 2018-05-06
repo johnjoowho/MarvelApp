@@ -38,15 +38,17 @@ input[type="text"] {
   clear: both; 
 }
 
-.sidenav {
-  width: 150px;
-  position: absolute;
-  /* z-index: 1; */
-  height: 300px; 
+.left {
   top: 160px;
   left: 10px;
+  width: 20%; 
+  float: left; 
+}
+
+.sidenav {
+  /* z-index: 1; */
+  height: 300px; 
   background: #eee;
-  float: right; 
   padding: 8px 0;
 }
 
