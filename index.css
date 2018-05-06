@@ -73,6 +73,7 @@ main {
 .js-query { 
   height: 75px; 
   width: 50%; 
+  padding-left: 15px; 
 }
 
 
@@ -88,21 +89,21 @@ main {
 
 ::-webkit-input-placeholder {
   font-style: italic;
-  font-size: 18px; 
+  font-size: 25px; 
   margin-left: 15px; 
 }
 :-moz-placeholder {
   font-style: italic;  
-  font-size: 18px;
+  font-size: 25px;
   margin-left: 15px;
 }
 ::-moz-placeholder {
   font-style: italic;  
-  font-size: 18px;
+  font-size: 25px;
   margin-left: 15px;
 }
 :-ms-input-placeholder {  
   font-style: italic; 
-  font-size: 18px;
+  font-size: 25px;
   margin-left: 15px;
 }
