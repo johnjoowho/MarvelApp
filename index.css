@@ -37,7 +37,8 @@ main {
 }
 
 .marvel-attribution {
-  margin: auto; 
+  margin-top: auto;
+  margin-left: auto;  
   font-size: 25px; 
 }
 
