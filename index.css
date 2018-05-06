@@ -8,6 +8,14 @@ html {
   height: 100%
 }
 
+body { 
+  height: 100%; 
+}
+
+main { 
+  height: 100%; 
+}
+
 .header-container { 
   background-image: url('https://i.imgur.com/5jNHzCZ.jpg'); 
   background-size: 100%; 
@@ -18,8 +26,7 @@ html {
   text-align: center; 
 }
 
-#main-container{ 
-  height: 100%;  
+#main-container{   
   background-image: url('https://djstorm.files.wordpress.com/2014/08/the-avengers-age-of-ultron-2015-marvel-poster-wallpaper.jpg');
   background-size: fill; 
 }
