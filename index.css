@@ -38,16 +38,21 @@ button {
   text-align: center; 
 }
 
+.navsection:after { 
+  clear: left; 
+}
+
 .sidenav {
   width: 200px;
   position: fixed;
   z-index: 1;
   height: 500px; 
-  top: 500px;
+  top: 200px;
   left: 25px;
   background: #eee;
   overflow-x: hidden;
   padding: 8px 0;
+  float: left; 
 }
 
 .footer-container { 
