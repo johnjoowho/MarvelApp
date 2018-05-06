@@ -6,10 +6,11 @@
 
 .header-container { 
   background-image: url('https://img00.deviantart.net/4ebb/i/2017/179/b/0/avengers__infinity_war_banner_by_bakikayaa-dbeco5n.jpg'); 
+  background-size: 100%; 
   width: 100%; 
   background-repeat: no-repeat; 
   padding: 30px; 
-
+  text-align: center; 
 }
 
 .page-title { 
