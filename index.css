@@ -60,7 +60,8 @@ main {
   color: white; 
 }
 
-.search-prompt { 
+.search-prompt {
+  position: relative; 
   top: 200px;  
   font-size: 50px; 
   margin: 20px; 
