@@ -60,6 +60,10 @@ main {
   color: white; 
 }
 
+.search-button { 
+  height: 50px; 
+}
+
 
 
 .results-title { 
