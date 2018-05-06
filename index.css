@@ -88,13 +88,21 @@ main {
 
 ::-webkit-input-placeholder {
   font-style: italic;
+  font-size: 18px; 
+  margin-left: 15px; 
 }
 :-moz-placeholder {
   font-style: italic;  
+  font-size: 18px;
+  margin-left: 15px;
 }
 ::-moz-placeholder {
   font-style: italic;  
+  font-size: 18px;
+  margin-left: 15px;
 }
 :-ms-input-placeholder {  
   font-style: italic; 
+  font-size: 18px;
+  margin-left: 15px;
 }
