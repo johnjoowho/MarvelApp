@@ -18,6 +18,24 @@ function getDataFromApi(searchTerm, callback) {
   $.ajax(settings); 
 }
 
+function getDataFromApi2(searchTerm, callback) { 
+  const settings = { 
+    url: MARVEL_SEARCH_URL, 
+    data: { 
+      apikey: '90b607b8985a5ffb047be3c16cb800fb',
+      name: `${searchTerm}`
+    },
+    dataType: 'json', 
+    type: 'GET', 
+    success: callback,
+    error: function (request, status, error) {
+      alert('please enter a name!'); 
+    }
+  }; 
+
+  $.ajax(settings); 
+}
+
 function renderResults(data) {
   return `
   <h1>Character name: ${data.data.results[0].name}</h1> 
@@ -26,8 +44,6 @@ function renderResults(data) {
   <p class="character-description">Description: ${data.data.results[0].description}</p>
   <a href="${data.data.results[0].urls[0].url}">Link to comics ${data.data.results[0].name} appears in</a> 
   `
-
-  
 } 
 
 function displayMarvelData(data) { 
