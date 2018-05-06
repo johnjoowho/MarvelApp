@@ -105,8 +105,6 @@ input[type="text"] {
 }
 
 .js-query { 
-  position: relative; 
-  left: 30px; 
   height: 50px; 
   width: 40%; 
   border-radius: 5px; 
