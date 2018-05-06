@@ -46,9 +46,8 @@ input[type="text"] {
   top: 160px;
   left: 10px;
   background: #eee;
-  overflow-x: hidden;
+  float: right; 
   padding: 8px 0;
-  clear: both; 
 }
 
 .js-search-results {
