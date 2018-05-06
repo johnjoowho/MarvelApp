@@ -44,9 +44,9 @@ main {
 
 #main-container{    
   background-image: url('https://djstorm.files.wordpress.com/2014/08/the-avengers-age-of-ultron-2015-marvel-poster-wallpaper.jpg');
-  background-size: auto; 
+  background-size: contain; 
   background-position: center; 
-  background-attachment: fixed; 
+/*  background-attachment: fixed; */
   text-align: center; 
   color: white; 
 }
