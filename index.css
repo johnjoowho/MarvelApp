@@ -23,7 +23,7 @@ button {
   border: none; 
   height: 50px; 
   border-radius:5px; 
-  margin-bottom: 100px; 
+  margin-bottom: 75px; 
 }
 
 .home-button { 
@@ -102,7 +102,7 @@ button {
 
 .results-title { 
   font-size: 40px; 
-  margin: 20px; 
+  margin-bottom: 20px; 
 }
 
 .js-query { 
