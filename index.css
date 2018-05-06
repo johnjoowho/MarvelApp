@@ -90,7 +90,7 @@ input[type="text"] {
 .search-button { 
   cursor: pointer;
   height: 50px; 
-  width: 35%; 
+  width: 15%; 
   border: none; 
   border-radius: 5px; 
   margin-top: 25px;  
