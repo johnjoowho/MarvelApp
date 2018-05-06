@@ -56,7 +56,8 @@ button {
 }
 
 .js-search-results {
-  margin-left: 225px; 
+  margin-left: auto;
+  margin-right: auto;  
   width: 66.6%; 
 }
 
