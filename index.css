@@ -30,7 +30,6 @@ main {
 }
 
 .footer-container { 
-  padding: auto; 
   height: 50px; 
   background-color: navy; 
   color: yellow; 
@@ -38,7 +37,7 @@ main {
 }
 
 .marvel-attribution {
-  font-size: 15px; 
+  font-size: 25px; 
 }
 
 #main-container{    
