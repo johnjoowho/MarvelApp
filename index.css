@@ -29,6 +29,17 @@ main {
   text-align: center; 
 }
 
+.footer-container { 
+  height: 50px; 
+  background-color: navy; 
+  color: yellow; 
+  text-align: center; 
+}
+
+.marvel-attribution {
+  font-size: 15px; 
+}
+
 #main-container{    
   background-image: url('https://djstorm.files.wordpress.com/2014/08/the-avengers-age-of-ultron-2015-marvel-poster-wallpaper.jpg');
   background-size: fill; 
