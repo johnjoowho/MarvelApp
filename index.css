@@ -17,6 +17,12 @@ main {
   font-family: 'IBM Plex Serif', serif;
 }
 
+button { 
+  padding: 0; 
+  margin-top: 50px; 
+  border: 2px solid black; 
+}
+
 .home-button { 
   height: 100%; 
 }
@@ -64,7 +70,6 @@ main {
   height: 50px; 
   border: none; 
   border-radius: 5px; 
-  margin-top: 50px; 
 }
 
 
