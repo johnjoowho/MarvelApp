@@ -48,8 +48,8 @@ button {
 }
 
 .sidenav {
-  width: 100%;
-  position: relative;
+  width: 200px;
+  position: absolute;
   /* z-index: 1; */
   height: 30%px; 
   top: 200px;
@@ -118,16 +118,10 @@ button {
   border: none; 
 }
 
-@media only screen and (min-width: 768px) {
-  .cd-side-nav {
-    position: relative;
-    float: left;
-    width: 200px;
-    /* reset style */
-    visibility: visible;
-    opacity: 1;
-  }
-}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
 
 ::-webkit-input-placeholder {
   color: rgb(112, 25, 25); 
