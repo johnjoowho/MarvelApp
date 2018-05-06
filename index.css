@@ -17,11 +17,11 @@ main {
 }
 
 .home-button { 
-  height: 125px; 
+  height: 100%; 
 }
 
 .header-container { 
-  background-color: HEX #ec1d25; 
+  background-color: #ec1d25; 
   width: 100%;
   height: 150px; 
   background-repeat: no-repeat; 
