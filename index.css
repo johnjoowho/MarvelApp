@@ -50,7 +50,7 @@ button {
 .sidenav {
   width: 200px;
   position: absolute;
-  z-index: 1;
+  /* z-index: 1; */
   height: 500px; 
   top: 200px;
   left: 25px;
