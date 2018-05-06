@@ -16,6 +16,10 @@ main {
   height: 100%; 
 }
 
+.home-button { 
+  height: 125px; 
+}
+
 .header-container { 
   background-image: url('https://i.imgur.com/5jNHzCZ.jpg'); 
   background-size: 100%; 
@@ -43,6 +47,6 @@ main {
   font-size: 50px; 
 }
 
-.result-prompt { 
+.results-prompt { 
   font-size: 40px; 
 }
