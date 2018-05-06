@@ -90,7 +90,7 @@ input[type="text"] {
 .search-button { 
   cursor: pointer;
   height: 50px; 
-  width: 35px; 
+  width: 75px; 
   border: none; 
   border-radius: 5px; 
   font-size: 18px; 
@@ -107,7 +107,7 @@ input[type="text"] {
 
 .js-query { 
   height: 50px; 
-  width: 125px; 
+  width: 300px; 
   border-radius: 5px; 
   border: none; 
   text-align: center; 
