@@ -20,7 +20,7 @@ main {
 button { 
   padding: 0; 
   margin-top: 50px; 
-  border: 2px solid white; 
+  border: 1px solid white; 
   height: 50px; 
   border-radius:5px; 
 }
@@ -86,6 +86,7 @@ button {
   width: 35%; 
   padding-left: 15px; 
   border-radius: 5px; 
+  border: 1px solid white; 
 }
 
 
