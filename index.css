@@ -98,6 +98,7 @@ button {
 
 .search-button { 
   height: 100%; 
+  width: 35%; 
   border: none; 
   border-radius: 5px; 
 }
