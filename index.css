@@ -96,6 +96,8 @@ input[type="text"] {
   margin-top: 25px;  
   margin-bottom: 75px; 
   font-size: 18px; 
+  color: white; 
+  background-color: #ec1d25;
 }
 
 
