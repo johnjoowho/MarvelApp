@@ -62,6 +62,9 @@ main {
 
 .search-button { 
   height: 50px; 
+  border: none; 
+  border-radius: 5px; 
+  margin-top: 50px; 
 }
 
 
