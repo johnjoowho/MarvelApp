@@ -38,6 +38,7 @@ function getDataFromApi2(searchTerm, callback) {
 
 function renderResults(data) {
   return `
+  <h2 class="results-prompt">Results</h2>
   <h1>Character name: ${data.data.results[0].name}</h1> 
   
   <img src="${data.data.results[0].thumbnail.path}/portrait_xlarge.${data.data.results[0].thumbnail.extension}">
