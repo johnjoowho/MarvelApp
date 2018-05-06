@@ -15,7 +15,8 @@
 }
 
 #main-container{ 
-  height: 100%; 
+  top: 210px; 
+  bottom: 100px; 
   background-image: url('https://djstorm.files.wordpress.com/2014/08/the-avengers-age-of-ultron-2015-marvel-poster-wallpaper.jpg');
   background-size: fill; 
 }
