@@ -15,6 +15,7 @@ body {
 main { 
   height: 100%; 
   font-family: 'IBM Plex Serif', serif;
+  margin-left: 200px; 
 }
 
 button { 
