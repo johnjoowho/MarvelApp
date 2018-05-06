@@ -30,6 +30,7 @@ main {
 }
 
 .footer-container { 
+  vertical-align: middle; 
   height: 50px; 
   background-color: navy; 
   color: yellow; 
