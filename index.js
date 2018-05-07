@@ -18,12 +18,14 @@ function getDataFromApi(searchTerm, callback) {
   $.ajax(settings); 
 }
 
+const TMDB_SEARCH_URL = 'https://api.themoviedb.org/3'
+
 function getDataFromApi2(searchTerm, callback) { 
   const settings = { 
-    url: MARVEL_SEARCH_URL, 
+    url: TMDB_SEARCH_URL, 
     data: { 
-      apikey: '90b607b8985a5ffb047be3c16cb800fb',
-      name: `${searchTerm}`
+      api_key: '439c6d600f4d4b4f26ce018423311ac2',
+      query: `${searchTerm}`
     },
     dataType: 'json', 
     type: 'GET', 
