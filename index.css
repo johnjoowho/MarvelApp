@@ -155,24 +155,10 @@ input[type="text"] {
   .sidenav a {font-size: 18px;}
 } 
 
-/* unvisited link */
-a:link {
+a {
   color: red;
-}
-
-/* visited link */
-a:visited {
-  color: green;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 ::-webkit-input-placeholder {
