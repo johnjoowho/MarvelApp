@@ -160,16 +160,16 @@ a {
   color: red;
   text-decoration: none;
   text-transform: uppercase;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
+  -o-transition:.8s;
+  -ms-transition:.8s;
+  -moz-transition:.8s;
+  -webkit-transition:.8s;
   /* ...and now for the proper property */
-  transition:.5s;
+  transition:.8s;
 }
 
 a:hover {
-  color: hotpink;
+  color: yellowgreen;
 }
 
 
