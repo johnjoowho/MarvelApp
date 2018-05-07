@@ -89,7 +89,9 @@ input[type="text"] {
   font-size: 35px; 
 }
 
-
+.results-container { 
+  padding: 15px; 
+}
 
 .footer-container { 
   height: 50px; 
@@ -155,7 +157,7 @@ input[type="text"] {
 
 .link-container { 
   font-size: 18px; 
-  margin: 30px; 
+  margin-top: 30px; 
 }
 
 a {
