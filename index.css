@@ -118,7 +118,10 @@ input[type="text"] {
   background-color: #ec1d25;
 }
 
-
+.results-container { 
+  width: 50%; 
+  color: red; 
+}
 
 .results-title { 
   font-size: 40px; 
