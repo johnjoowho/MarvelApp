@@ -19,7 +19,7 @@ function getDataFromApi(searchTerm, callback) {
   $.ajax(settings); 
 }
 
-const TMDB_SEARCH_URL = 'https://api.themoviedb.org/3'
+const TMDB_SEARCH_URL = 'https://api.themoviedb.org/3/search/keyword'
 
 function getDataFromApi2(searchTerm, callback) { 
   const settings = { 
