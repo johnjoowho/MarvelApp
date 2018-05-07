@@ -77,6 +77,18 @@ input[type="text"] {
   background-color: black; 
 }
 
+.character-description { 
+  margin-top: 25px; 
+  padding: 10px; 
+  font-size: 25px; 
+}
+
+.character-name { 
+  margin-top: 25px; 
+  padding: 10px; 
+  font-size: 35px; 
+}
+
 .footer-container { 
   height: 50px; 
   background-color: navy; 
