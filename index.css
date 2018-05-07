@@ -107,7 +107,7 @@ input[type="text"] {
 
 .search-button { 
   position: relative; 
-  top: 3px; 
+  bottom: 3px; 
   cursor: pointer;
   height: 50px; 
   width: 10%; 
