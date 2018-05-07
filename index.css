@@ -87,6 +87,12 @@ input[type="text"] {
   padding-left: 40px; 
 }
 
+.trailerheading { 
+  font-size: 15px; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+
 .character-description { 
   margin-top: 25px; 
   padding: 10px; 
