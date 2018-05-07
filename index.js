@@ -64,7 +64,7 @@ function watchSubmit() {
 }
 
 function handleHomeButton() {
-  $('#home-button').on('click', function(event) {
+  $('.header-container').on('click', '#home-button', function(event) {
   $('.js-search-results').html(''); 
   }); 
 }
