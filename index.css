@@ -59,6 +59,7 @@ input[type="text"] {
 
 .sidenav {
   /* z-index: 1; */
+  display: inline-block; 
   height: 100%; 
   background-color: rgba(119, 0, 0, 0.5);
   padding: 8px 0;
@@ -83,6 +84,7 @@ input[type="text"] {
 }
 
 .js-search-results {
+  display: inline-block; 
   background-color: rgba(119, 0, 0, 0.8); 
   width: 50%; 
   margin-top: 15px; 
