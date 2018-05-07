@@ -12,6 +12,7 @@ function getDataFromApi(searchTerm, callback) {
     success: callback,
     error: function (error) {
       alert('There was an error with the Marvel API'); 
+      console.error(JSON.stringify(error));
     }
   }; 
 
@@ -32,6 +33,7 @@ function getDataFromApi2(searchTerm, callback) {
     success: callback,
     error: function (error) {
       alert('There was an error with TMDB API'); 
+    console.error(JSON.stringify(error));
     }
   }; 
 
@@ -52,8 +54,7 @@ function displayMovieData(data) {
 }
 
 function displayMarvelData(data) { 
-/*  console.log(Object(data)); */
-  console.log(JSON.stringify(data.data)); 
+//  console.log(JSON.stringify(data.data)); 
   $('.js-search-results').html(renderResults(data)); 
   getDataFromApi2(data.data.results[0].name, displayMovieData);
 }
@@ -63,10 +64,10 @@ function watchSubmit() {
     event.preventDefault();
     const queryTarget = $('.js-query');
     const query = queryTarget.val();
-    console.log(query);
+ //   console.log(query);
     // clear out the input
-    queryTarget.val("");
     getDataFromApi(query, displayMarvelData);
+    queryTarget.val("");
   });
 }
 
