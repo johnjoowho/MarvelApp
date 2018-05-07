@@ -56,14 +56,17 @@ input[type="text"] {
   padding: 8px 0;
 }
 
-.nav-ul .nav-ul2 { 
+.nav-ul { 
   list-style-type: none;
+}
+
+.nav-ul2{ 
+  list-style-type: none; 
 }
 
 .form-container { 
   padding: 10px; 
   background-color: black; 
-  width: 60%; 
 }
 
 .js-search-results {
