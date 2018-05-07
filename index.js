@@ -63,4 +63,10 @@ function watchSubmit() {
   });
 }
 
+function handleHomeButton() {
+  $('#home-button').on('click', function(event) {
+  $('.js-search-results').html(''); 
+  }); 
+}
+
 $(watchSubmit); 
