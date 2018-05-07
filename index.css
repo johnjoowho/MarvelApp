@@ -155,9 +155,13 @@ input[type="text"] {
   .sidenav a {font-size: 18px;}
 } 
 
+.character-link { 
+  font-size: 18px; 
+  margin: 10px; 
+}
+
 a {
-  font-size: 20px; 
-  color: red;
+  color: burlywood;
   text-decoration: none;
   text-transform: uppercase;
   -o-transition:.8s;
@@ -169,7 +173,7 @@ a {
 }
 
 a:hover {
-  color: yellowgreen;
+  color: red;
 }
 
 
