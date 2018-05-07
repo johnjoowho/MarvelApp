@@ -56,13 +56,14 @@ input[type="text"] {
   padding: 8px 0;
 }
 
-.nav-ul { 
+.nav-ul .nav-ul2 { 
   list-style-type: none;
 }
 
 .form-container { 
   padding: 10px; 
   background-color: black; 
+  width: 60%; 
 }
 
 .js-search-results {
@@ -104,7 +105,7 @@ input[type="text"] {
 .search-button { 
   cursor: pointer;
   height: 50px; 
-  width: 75px; 
+  width: 10%; 
   border: none; 
   border-radius: 5px; 
   font-size: 18px; 
