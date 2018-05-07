@@ -89,9 +89,7 @@ input[type="text"] {
   font-size: 35px; 
 }
 
-.character-link { 
-  font-size: 25px; 
-}
+
 
 .footer-container { 
   height: 50px; 
@@ -155,9 +153,9 @@ input[type="text"] {
   .sidenav a {font-size: 18px;}
 } 
 
-.character-link { 
+.link-container { 
   font-size: 18px; 
-  margin: 40px; 
+  margin: 30px; 
 }
 
 a {
