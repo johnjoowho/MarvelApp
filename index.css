@@ -32,6 +32,10 @@ input[type="text"] {
   height: 100%; 
 }
 
+#navsection { 
+  height: 100%; 
+}
+
 .header-container { 
   background-color: #ec1d25; 
   width: 100%;
