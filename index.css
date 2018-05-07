@@ -133,11 +133,11 @@ input[type="text"] {
 }
 
 #main-container {     
-  background-image: url('https://djstorm.files.wordpress.com/2014/08/the-avengers-age-of-ultron-2015-marvel-poster-wallpaper.jpg'); 
-    background-size: cover;
+  /* background-image: url('https://djstorm.files.wordpress.com/2014/08/the-avengers-age-of-ultron-2015-marvel-poster-wallpaper.jpg'); */
+  background-color: black; 
   background-size: cover; 
   background-position: center; 
-  background-repeat: repeat-y; 
+  background-repeat: no-repeat; 
   height: 100%; 
   text-align: center; 
   color: white; 
