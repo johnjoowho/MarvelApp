@@ -156,10 +156,22 @@ input[type="text"] {
 } 
 
 a {
+  font-size: 20px; 
   color: red;
   text-decoration: none;
   text-transform: uppercase;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
 }
+
+a:hover {
+  color: hotpink;
+}
+
 
 ::-webkit-input-placeholder {
   color: rgb(196, 128, 128); 
