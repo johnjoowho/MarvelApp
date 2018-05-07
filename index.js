@@ -10,7 +10,7 @@ function getDataFromApi(searchTerm, callback) {
     dataType: 'json', 
     type: 'GET', 
     success: callback,
-    error: function (error) {
+    error: function (req, status, error) {
       alert('There was an error with the Marvel API'); 
       console.error(JSON.stringify(error));
     }
@@ -31,7 +31,7 @@ function getDataFromApi2(searchTerm, callback) {
     dataType: 'json', 
     type: 'GET', 
     success: callback,
-    error: function (error) {
+    error: function (req, status, error) {
       alert('There was an error with TMDB API'); 
     console.error(JSON.stringify(error));
     }
