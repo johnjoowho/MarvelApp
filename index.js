@@ -47,10 +47,15 @@ function renderResults(data) {
   `
 } 
 
+function displayMovieData(data) { 
+  console.log(JSON.stringify(data)); 
+}
+
 function displayMarvelData(data) { 
 /*  console.log(Object(data)); */
   console.log(JSON.stringify(data.data)); 
   $('.js-search-results').html(renderResults(data)); 
+  getDataFromApi2(data.data.results[0].name, displayMovieData);
 }
 
 function watchSubmit() {
