@@ -39,7 +39,6 @@ function getDataFromApi2(searchTerm, callback) {
 function renderResults(data) {
   return `
   <div class="results-container"> 
-  <p class="results-title">Results</p>
   <h1>Character name: ${data.data.results[0].name}</h1> 
   <img src="${data.data.results[0].thumbnail.path}/portrait_xlarge.${data.data.results[0].thumbnail.extension}">
   <p class="character-description">Description: ${data.data.results[0].description}</p>
