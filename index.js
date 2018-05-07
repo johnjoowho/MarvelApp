@@ -53,7 +53,7 @@ function renderResults(data) {
 
 function renderResults2(data) { 
   return `
-  <p class="movieoverview">${data.results[0]}</p>
+  <p class="movieoverview">${data}</p>
   `
 }
 
