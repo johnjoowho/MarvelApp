@@ -91,6 +91,7 @@ input[type="text"] {
 
 .results-container { 
   padding: 15px; 
+  margin-bottom: 15px; 
 }
 
 .footer-container { 
@@ -111,7 +112,6 @@ input[type="text"] {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
-/*  background-attachment: fixed; */
   text-align: center; 
   color: white; 
   padding: 25px;  
