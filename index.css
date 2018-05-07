@@ -76,6 +76,7 @@ input[type="text"] {
 }
 
 .js-search-results {
+  background-color: rgba(119, 0, 0, 0.8); 
   width: 50%; 
   margin-top: 15px; 
   margin-bottom: 15px; 
