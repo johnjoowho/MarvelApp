@@ -129,7 +129,7 @@ input[type="text"] {
   bottom: 3px; 
   cursor: pointer;
   height: 50px; 
-  width: 10%; 
+  width: 75px; 
   border: none; 
   border-radius: 5px; 
   font-size: 18px; 
@@ -145,7 +145,7 @@ input[type="text"] {
 
 .js-query { 
   height: 50px; 
-  width: 40%; 
+  width: 300px;  
   border-radius: 5px; 
   border: none; 
   text-align: center; 
