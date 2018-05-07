@@ -89,6 +89,10 @@ input[type="text"] {
   font-size: 35px; 
 }
 
+.character-link { 
+  font-size: 25px; 
+}
+
 .footer-container { 
   height: 50px; 
   background-color: navy; 
@@ -150,6 +154,26 @@ input[type="text"] {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 } 
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 
 ::-webkit-input-placeholder {
   color: rgb(196, 128, 128); 

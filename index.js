@@ -42,7 +42,7 @@ function renderResults(data) {
   <h1 class="character-name">${data.data.results[0].name}</h1> 
   <img src="${data.data.results[0].thumbnail.path}/portrait_xlarge.${data.data.results[0].thumbnail.extension}">
   <p class="character-description">Description: ${data.data.results[0].description}</p>
-  <a href="${data.data.results[0].urls[0].url}">Link to comics ${data.data.results[0].name} appears in</a> 
+  <a href="${data.data.results[0].urls[0].url}" class="character-link">Link to comics ${data.data.results[0].name} appears in</a> 
   </div> 
   `
 } 
