@@ -70,3 +70,4 @@ function handleHomeButton() {
 }
 
 $(watchSubmit); 
+$(handleHomeButton); 

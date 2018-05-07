@@ -27,6 +27,7 @@ input[type="text"] {
 }
 
 #home-button { 
+  cursor: pointer;
   height: 100%; 
 }
 
