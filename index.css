@@ -21,6 +21,11 @@ input[type="text"] {
   font-size: 25px; 
 }
 
+#input-form { 
+  padding: 15px; 
+  background-color: black; 
+}
+
 .home-button { 
   height: 100%; 
 }
