@@ -75,6 +75,7 @@ input[type="text"] {
   margin-left: auto; 
   margin-right: auto; 
   background-color: black; 
+  padding: 15px; 
 }
 
 .character-description { 
@@ -155,10 +156,9 @@ input[type="text"] {
   .sidenav a {font-size: 18px;}
 } 
 
-.link-container { 
+.character-link { 
   font-size: 18px; 
   margin-top: 30px; 
-  margin-bottom: 30px; 
 }
 
 a {
