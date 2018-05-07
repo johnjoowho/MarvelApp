@@ -43,13 +43,11 @@ input[type="text"] {
 }
 
 .left {
-  height: 100%;
   width: 20%; 
   float: left; 
 }
 
 .right {
-  height: 100%; 
   width: 20%; 
   float: right; 
 }
