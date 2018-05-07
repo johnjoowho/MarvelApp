@@ -111,13 +111,13 @@ input[type="text"] {
 .character-description { 
   margin-top: 25px; 
   padding: 10px; 
-  font-size: 25px; 
+  font-size: 26px; 
 }
 
 .character-name { 
   margin-top: 25px; 
   padding: 10px; 
-  font-size: 35px; 
+  font-size: 25px; 
 }
 
 
