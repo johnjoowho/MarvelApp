@@ -86,7 +86,7 @@ input[type="text"] {
   display: inline-block; 
   background-color: rgba(39, 0, 0, 0.8); 
   width: 80%; 
-  height: 80%; 
+  height: 50%; 
   margin-top: 15px; 
   margin-bottom: 15px; 
   margin-left: auto; 
@@ -134,7 +134,7 @@ input[type="text"] {
 }
 
 #main-container {     
-  /* background-image: url('https://djstorm.files.wordpress.com/2014/08/the-avengers-age-of-ultron-2015-marvel-poster-wallpaper.jpg'); */
+  background-image: url('https://djstorm.files.wordpress.com/2014/08/the-avengers-age-of-ultron-2015-marvel-poster-wallpaper.jpg'); 
   background-color: black; 
   background-size: cover; 
   background-position: center; 
