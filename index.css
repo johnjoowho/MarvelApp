@@ -56,7 +56,6 @@ input[type="text"] {
 
 .sidenav {
   /* z-index: 1; */
-  display: inline-block; 
   height: 500px; 
   background-color: rgba(119, 0, 0, 0.5);
   padding: 8px 0;
