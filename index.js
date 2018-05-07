@@ -45,13 +45,21 @@ function renderResults(data) {
   <h2 class="character-name">${data.data.results[0].name}</h1> 
   <img src="${data.data.results[0].thumbnail.path}/portrait_xlarge.${data.data.results[0].thumbnail.extension}">
   <p class="character-description">Description: ${data.data.results[0].description}</p>
-  <a href="${data.data.results[0].urls[0].url}" class="character-link">Link to comics ${data.data.results[0].name} appears in</a> 
+  <a href="${data.data.results[0].urls[0].url}" class="character-link">Link to comics ${data.data.results[0].name} appears in</a>
+  <br> 
   `:
   `No character found`
 } 
 
+function renderResults2(data) { 
+  return `
+  <p class="movieoverview" data.object.results.overview>
+  `
+}
+
 function displayMovieData(data) { 
   console.log(JSON.stringify(data)); 
+  $('.js-search-results').append(renderResults2); 
 }
 
 function displayMarvelData(data) { 
