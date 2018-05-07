@@ -133,9 +133,6 @@ input[type="text"] {
 
 #main-container {     
   background-image: url('https://djstorm.files.wordpress.com/2014/08/the-avengers-age-of-ultron-2015-marvel-poster-wallpaper.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   text-align: center; 
   color: white; 
