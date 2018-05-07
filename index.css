@@ -55,7 +55,7 @@ input[type="text"] {
 .sidenav {
   /* z-index: 1; */
   height: 500px; 
-  background-color: rgba(119, 0, 0, 0.5);
+  background-color: rgba(68, 0, 0, 0.5);
   padding: 8px 0;
 }
 
@@ -74,12 +74,12 @@ input[type="text"] {
   padding-right: 10px; 
   padding-top: 30px; 
   padding-bottom: 30px;  
-  background-color: rgba(119, 0, 0, 0.5); 
+  background-color: rgba(68, 0, 0, 0.5); 
 }
 
 .js-search-results {
   display: inline-block; 
-  background-color: rgba(119, 0, 0, 0.8); 
+  background-color: rgba(68, 0, 0, 0.8); 
   width: 50%; 
   margin-top: 15px; 
   margin-bottom: 15px; 
