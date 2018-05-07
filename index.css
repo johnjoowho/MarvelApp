@@ -44,6 +44,11 @@ input[type="text"] {
   float: left; 
 }
 
+.right {
+  width: 20%; 
+  float: right; 
+}
+
 .sidenav {
   /* z-index: 1; */
   height: 300px; 
