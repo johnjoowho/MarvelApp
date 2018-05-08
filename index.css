@@ -125,6 +125,13 @@ input[type="text"] {
   height: 200px; 
 }
 
+.list-of-movies { 
+  list-style-position: inside; 
+  margin: 0; 
+  padding: 0; 
+  
+}
+
 .footer-container { 
   height: 25px; 
   background-color: black; 

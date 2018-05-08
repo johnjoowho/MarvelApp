@@ -54,7 +54,7 @@ function renderResults(data) {
 function renderResults2(data) { 
   return `
   Top 5 movie results
-  <ol class="list of movies"> 
+  <ol class="list-of-movies"> 
     <li class="movietitles">Title: "${data.results[0].title}" Released: "${data.results[0].release_date}" Rating: ${data.results[0].vote_average}/10</li>
       <div>
       <img class="topmovieimg" src="https://api.themoviedb.org/3/search/movie${data.results[0].poster_path}"> 
