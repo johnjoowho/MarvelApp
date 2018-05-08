@@ -187,6 +187,7 @@ input[type="text"] {
 }
 
 .movies-container { 
+  margin-top: 15px; 
   width: 90%;  
   text-align: left;
   border: 1px solid white;  
