@@ -53,8 +53,8 @@ function renderResults(data) {
 
 function renderResults2(data) { 
   return `
-  <h3 class="movie-results-heading"> Top 5 movie results </h3>
   <div class="movies-container">
+  <h3 class="movie-results-heading"> Top 5 movie results </h3>
     <ol class="list-of-movies"> <br> 
       <li class="movietitlestop">Title: "${data.results[0].title}" <br>Released: "${data.results[0].release_date}" <br>Rating: ${data.results[0].vote_average}/10</li>
       <li class="movietitles">Title: "${data.results[1].title}" <br>Released: "${data.results[1].release_date}" <br>Rating: ${data.results[1].vote_average}/10</li>
