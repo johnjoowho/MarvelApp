@@ -55,11 +55,12 @@ function renderResults2(data) {
   return `
   Top 5 movie results
   <ol class="list of movies"> 
-    <li class="movietitles">${data.results[0].title}  Popularity: ${data.results[0].popularity}</li>
-    <li class="movietitles">${data.results[1].title}  Popularity: ${data.results[1].popularity}</li>
-    <li class="movietitles">${data.results[2].title}  Popularity: ${data.results[2].popularity}</li>
-    <li class="movietitles">${data.results[3].title}  Popularity: ${data.results[3].popularity}</li>
-    <li class="movietitles">${data.results[4].title}  Popularity: ${data.results[4].popularity}</li>
+    <li class="movietitles">Title: "${data.results[0].title}"  Popularity: ${data.results[0].popularity}</li>
+      <img class="topmovieimg" src="https://api.themoviedb.org/3/search/movie${data.results[0].poster_path} height: 300px;"
+    <li class="movietitles">Title: "${data.results[1].title}"  Popularity: ${data.results[1].popularity}</li>
+    <li class="movietitles">Title: "${data.results[2].title}"  Popularity: ${data.results[2].popularity}</li>
+    <li class="movietitles">Title: "${data.results[3].title}"  Popularity: ${data.results[3].popularity}</li>
+    <li class="movietitles">Title: "${data.results[4].title}"  Popularity: ${data.results[4].popularity}</li>
   </ol> 
   `
 }
