@@ -121,7 +121,9 @@ input[type="text"] {
   font-size: 25px; 
 }
 
-
+.topmovieimg { 
+  height: 200px; 
+}
 
 .footer-container { 
   height: 25px; 
