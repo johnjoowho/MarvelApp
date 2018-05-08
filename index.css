@@ -82,6 +82,10 @@ input[type="text"] {
   background-color: rgba(39, 0, 0, 0.5); 
 }
 
+.welcome-img { 
+  height: 50%: 
+}
+
 .js-search-results {
   display: inline-block; 
   background-color: rgba(39, 0, 0, 0.8); 
