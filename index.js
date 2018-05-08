@@ -56,7 +56,9 @@ function renderResults2(data) {
   Top 5 movie results
   <ol class="list of movies"> 
     <li class="movietitles">Title: "${data.results[0].title}"  Popularity: ${data.results[0].popularity}</li>
-      <img class="topmovieimg" src="https://api.themoviedb.org/3/search/movie${data.results[0].poster_path} height: 300px;"
+      <div>
+      <img class="topmovieimg" src="https://api.themoviedb.org/3/search/movie${data.results[0].poster_path}"> 
+      </div> 
     <li class="movietitles">Title: "${data.results[1].title}"  Popularity: ${data.results[1].popularity}</li>
     <li class="movietitles">Title: "${data.results[2].title}"  Popularity: ${data.results[2].popularity}</li>
     <li class="movietitles">Title: "${data.results[3].title}"  Popularity: ${data.results[3].popularity}</li>
