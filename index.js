@@ -62,7 +62,7 @@ function renderResults2(data) {
       <li class="movietitles">Title: "${data.results[3].title}" <br>Released: "${data.results[3].release_date}" <br>Rating: ${data.results[3].vote_average}/10</li>
       <li class="movietitles">Title: "${data.results[4].title}" <br>Released: "${data.results[4].release_date}" <br>Rating: ${data.results[4].vote_average}/10</li>
     </ol> 
-  </div>s
+  </div>
   `
 }
 

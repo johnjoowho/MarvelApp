@@ -94,15 +94,14 @@ input[type="text"] {
   display: inline-block; 
   background-color: rgba(39, 0, 0, 0.8); 
   width: 50%; 
-  height: 80%; 
+  height: 70%; 
   margin-top: 15px; 
   margin-left: auto; 
   margin-right: auto; 
-  padding-right: 40px; 
-  padding-left: 40px; 
-  padding-top: auto; 
-  padding-bottom: auto; 
-  border: .5px white; 
+  padding-right: 15px; 
+  padding-left: 15px; 
+  padding-top: 15px;
+  padding-bottom: 15px; 
   overflow: auto; 
 }
 
@@ -148,6 +147,11 @@ input[type="text"] {
   font-size: 20px; 
 }
 
+.movietitles { 
+  border-bottom: 1px solid white; 
+}
+
+
 .footer-container { 
   height: 25px; 
   background-color: black; 
@@ -179,11 +183,11 @@ input[type="text"] {
  
 .movie-results-heading { 
   font-size: 30px; 
+  border-bottom: 1px solid white; 
 }
+
 .movies-container { 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: 75%;  
+  width: 90%;  
   text-align: left;
   border: 1px solid white;  
 }
