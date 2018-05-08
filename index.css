@@ -81,9 +81,9 @@ input[type="text"] {
   margin-right: auto; 
   background-color: rgba(39, 0, 0, 0.5); 
 }
-
+ 
 .welcome-img { 
-  height: 50%: 
+ width: 90%;
 }
 
 .js-search-results {
