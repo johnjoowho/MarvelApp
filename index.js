@@ -55,11 +55,11 @@ function renderResults2(data) {
   return `
   Top 5 movie results
   <ol class="list of movies"> 
-    <li class="movietitles">${data.results[0].title}</li>
-    <li class="movietitles">${data.results[1].title}</li>
-    <li class="movietitles">${data.results[2].title}</li>
-    <li class="movietitles">${data.results[3].title}</li>
-    <li class="movietitles">${data.results[4].title}</li>
+    <li class="movietitles">${data.results[0].title}  Popularity: ${data.results[0].popularity}</li>
+    <li class="movietitles">${data.results[1].title}  Popularity: ${data.results[1].popularity}</li>
+    <li class="movietitles">${data.results[2].title}  Popularity: ${data.results[2].popularity}</li>
+    <li class="movietitles">${data.results[3].title}  Popularity: ${data.results[3].popularity}</li>
+    <li class="movietitles">${data.results[4].title}  Popularity: ${data.results[4].popularity}</li>
   </ol> 
   `
 }
