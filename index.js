@@ -53,13 +53,13 @@ function renderResults(data) {
 
 function renderResults2(data) { 
   return `
-  <p class="movieoverview">${Objects.results[0].title}</p>
+  <p class="movieoverview">${data.results[0].title}</p>
   `
 }
 
 function displayMovieData(data) { 
   console.log(JSON.stringify(data)); 
-  $('.js-search-results').append(renderResults2); 
+  $('.js-search-results').append(renderResults2(data)); 
 }
 
 function displayMarvelData(data) { 
