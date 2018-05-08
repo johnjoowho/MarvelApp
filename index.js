@@ -53,7 +53,14 @@ function renderResults(data) {
 
 function renderResults2(data) { 
   return `
-  <p class="movieoverview">${data.results[0].title}</p>
+  Top 5 movie results
+  <ol class="list of movies"> 
+    <li class="movietitles">${data.results[0].title}</li>
+    <li class="movietitles">${data.results[1].title}</li>
+    <li class="movietitles">${data.results[2].title}</li>
+    <li class="movietitles">${data.results[3].title}</li>
+    <li class="movietitles">${data.results[4].title}</li>
+  </ol> 
   `
 }
 
