@@ -131,10 +131,6 @@ input[type="text"] {
   font-size: 50px; 
 }
 
-.topmovieimg { 
-  height: 200px; 
-}
-
 .list-of-movies { 
   list-style-position: inside; 
   font-size: 16px; 
