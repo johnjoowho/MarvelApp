@@ -121,6 +121,10 @@ input[type="text"] {
   font-size: 50px; 
 }
 
+.character-img { 
+ float: left; 
+}
+
 .topmovieimg { 
   height: 200px; 
 }

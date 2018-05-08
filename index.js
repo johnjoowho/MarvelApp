@@ -37,7 +37,7 @@ function getDataFromApi2(searchTerm, callback) {
     }
   }; 
 
-  $.ajax(settings); 
+  $.ajax(settings);  
 }
 
 function renderResults(data) {
