@@ -53,14 +53,14 @@ function renderResults(data) {
 
 function renderResults2(data) { 
   return `
-  Top 5 movie results
+  <h3 class="movie-results-heading"> Top 5 movie results </h3>
   <div class="movies-container">
-    <ol class="list-of-movies"> 
-      <li class="movietitles">Title: "${data.results[0].title}" Released: "${data.results[0].release_date}" Rating: ${data.results[0].vote_average}/10</li>
-      <li class="movietitles">Title: "${data.results[1].title}" Released: "${data.results[1].release_date}" Rating: ${data.results[1].vote_average}/10</li>
-      <li class="movietitles">Title: "${data.results[2].title}" Released: "${data.results[2].release_date}" Rating: ${data.results[2].vote_average}/10</li>
-      <li class="movietitles">Title: "${data.results[3].title}" Released: "${data.results[3].release_date}" Rating: ${data.results[3].vote_average}/10</li>
-      <li class="movietitles">Title: "${data.results[4].title}" Released: "${data.results[4].release_date}" Rating: ${data.results[4].vote_average}/10</li>
+    <ol class="list-of-movies"> <br> 
+      <li class="movietitlestop">Title: "${data.results[0].title}" <br>Released: "${data.results[0].release_date}" <br>Rating: ${data.results[0].vote_average}/10</li>
+      <li class="movietitles">Title: "${data.results[1].title}" <br>Released: "${data.results[1].release_date}" <br>Rating: ${data.results[1].vote_average}/10</li>
+      <li class="movietitles">Title: "${data.results[2].title}" <br>Released: "${data.results[2].release_date}" <br>Rating: ${data.results[2].vote_average}/10</li>
+      <li class="movietitles">Title: "${data.results[3].title}" <br>Released: "${data.results[3].release_date}" <br>Rating: ${data.results[3].vote_average}/10</li>
+      <li class="movietitles">Title: "${data.results[4].title}" <br>Released: "${data.results[4].release_date}" <br>Rating: ${data.results[4].vote_average}/10</li>
     </ol> 
   </div>s
   `

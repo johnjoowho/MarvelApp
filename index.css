@@ -138,9 +138,14 @@ input[type="text"] {
 
 .list-of-movies { 
   list-style-position: inside; 
+  font-size: 16px; 
   margin: 0; 
   padding: 0; 
   line-height: 2; 
+}
+
+.movietitlestop { 
+  font-size: 20px; 
 }
 
 .footer-container { 
@@ -171,7 +176,10 @@ input[type="text"] {
   font-size: 50px; 
   color: white; 
 }
-
+ 
+.movie-results-heading { 
+  font-size: 30px; 
+}
 .movies-container { 
   margin-left: auto; 
   margin-right: auto; 
