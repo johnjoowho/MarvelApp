@@ -43,6 +43,7 @@ function getDataFromApi2(searchTerm, callback) {
 function renderResults(data) {
   return data.data.results.length > 0 ?`
   <img class="character-img" src="${data.data.results[0].thumbnail.path}/portrait_uncanny.${data.data.results[0].thumbnail.extension}">
+  <br> 
   <h2 class="character-name">${data.data.results[0].name}</h2> 
   <p class="character-description">Description: ${data.data.results[0].description}</p>
   <a href="${data.data.results[0].urls[0].url}" class="character-link">Link to comics ${data.data.results[0].name} appears in</a>
